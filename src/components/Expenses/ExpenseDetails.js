@@ -1,6 +1,6 @@
 import "./ExpenseItem.css";
 
-function ExpenseDetails(props) {
+const ExpenseDetails = (props) => {
   return (
     <div className="expense-item__description">
       <h2 className="expense-item">{props.title}</h2>
