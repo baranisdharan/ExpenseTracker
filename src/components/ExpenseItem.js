@@ -1,12 +1,11 @@
 function ExpenseItem() {
   return (
     <div>
+      <div>14 Feb 2023</div>
       <div>
-        <h2>Expense Items</h2>
+        <h2>Car Insurance</h2>
+        <div>$ 100</div>
       </div>
-      <div>Food Rs 100</div>
-      <div>Petrol Rs 100</div>
-      <div>Movies Rs 200</div>
     </div>
   );
 }
